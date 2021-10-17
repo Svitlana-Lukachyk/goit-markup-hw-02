@@ -1,0 +1,113 @@
+:root {
+    --primary-header-color: #212121;
+    --second-header-color: #757575;
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --primary-title-color: #212121;
+    --hero-title-color: #ffffff;
+    --footer-color:  #ffffff;
+    --accent-color: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.hero {
+    background-color: var(--primary-text-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-title-color);
+}
+
+.button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #188CE8;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #188CE8;
+}
+
+.button:focus {
+    background-color: var(--accent-color);
+}
+
+/* --------------header-------------------- */
+.header-tel:hover, .header-tel:focus {
+    color: var(--accent-color);
+}
+.header-btn:hover, .header-btn:focus {
+    color: var(--accent-color);
+}
+
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-header-color);
+}
+
+.header-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-header-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-header-color);
+    cursor: pointer;
+}
+
+.menu-list .current {
+    color: var(--accent-color)
+}
+
+.menu-link:hover, .menu-link:focus {
+    color: var(--accent-color);
+}
+
